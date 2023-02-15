@@ -1,8 +1,8 @@
 class Benerator < Formula
   desc "This formula installs the GPL'd Community Edition of the Benerator test data generator"
   homepage "https://www.benerator.de/"
-  url "https://github.com/rapiddweller/rapiddweller-benerator-ce/releases/download/2.0.0/rapiddweller-benerator-ce-2.0.0-jdk-11-dist.tar.gz"
-  sha256 "5e49f2427d8cc20212a5f65944c5a35fb31f98f7403fe1333761aec43ddaf310"
+  url "https://github.com/rapiddweller/rapiddweller-benerator-ce/releases/download/3.1.0/rapiddweller-benerator-ce-3.1.0-jdk-11-dist.tar.gz"
+  sha256 "194feb051ae18cfcd407b8e1668ce9c60561394bc454f9fc9747c274166843bc"
 
   depends_on "openjdk"
 
@@ -20,7 +20,6 @@ class Benerator < Formula
   def caveats; <<~EOS
     To use the benerator commands, please set the following environment variables:
         BENERATOR_HOME=#{opt_prefix}
-        JAVA_HOME=
 
     Use one of the following commands to find the value for JAVA_HOME:
     $(dirname $(readlink $(which javac)))/java_home
@@ -34,7 +33,7 @@ class Benerator < Formula
 
   
   test do
-    #assert_match "Benerator 21.0.0-jdk-11", shell_output("#{bin}/benerator --version", 2)
+    #assert_match "Benerator 3.1.0-jdk-11", shell_output("#{bin}/benerator --version", 2)
   end
 end
 
