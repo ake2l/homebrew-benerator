@@ -6,7 +6,7 @@ layout: home
 ---
 
 <p align="center">
-  <a href="https://benerator.de"><img width="300" height="300" src="https://github.com/rapiddweller/rapiddweller-benerator-ce/blob/development/doc/assets/benerator-icon.png" alt="Benerator"></a>
+  <a href="https://benerator.de"><img width="300" height="300" src="https://github.com/rapiddweller/rapiddweller-benerator-ce/raw/development/doc/assets/benerator-icon.png" alt="Benerator"></a>
 </p>
 <p align="center">
     <em>Benerator, the smart way to generate data</em>
@@ -100,17 +100,17 @@ Please note that these instructions are a basic guide to get you started with th
 ### Data Synthesization
 
 Performance test data can be completely synthesized. A basic setup can be imported e.g. from DbUnit files, CSV files and fixed column width files. A descriptor file configures how imported data should be processed and adds completely synthesized data. The processed or generated data finally is stored in the system under test.
-![Data Synthesization](https://github.com/rapiddweller/rapiddweller-benerator-ce/blob/development/doc/assets/grafik1.png)
+![Data Synthesization](https://github.com/rapiddweller/rapiddweller-benerator-ce/raw/development/doc/assets/grafik1.png)
 
 ### Production Data Anonymization
 
 Production data can be easily extracted from production systems. Tables can be imported unmodified, filtered, anonymized and converted.
-![Production Data Anonymization](https://github.com/rapiddweller/rapiddweller-benerator-ce/blob/development/doc/assets/grafik2.png)
+![Production Data Anonymization](https://github.com/rapiddweller/rapiddweller-benerator-ce/raw/development/doc/assets/grafik2.png)
 
 ### Building Blocks
 
 Benerator is developed and continuously extended and improved since June 2006. Benerator is mainly used and tested best for the data file and database data generation, for these applications Benerator should help you with almost all your data generation needs out of the box - and extending Benerator for specific needs is easy.
-![Building Blocks](https://github.com/rapiddweller/rapiddweller-benerator-ce/blob/development/doc/assets/grafik3.png)
+![Building Blocks](https://github.com/rapiddweller/rapiddweller-benerator-ce/raw/development/doc/assets/grafik3.png)
 
 rapiddweller Benerator is built for Java 11
 

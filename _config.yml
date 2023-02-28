@@ -23,7 +23,8 @@ email: team@rapiddweller.com
 description: >- # this means to ignore newlines until "baseurl:"
   A powerful software solution for data generation, obfuscation, and migration for development, testing, and training purposes. Our core goals are to provide model-driven test data generation that satisfies complex data validity requirements, anonymize production data for showcases and serious performance testing projects, efficiently generate large data volumes, and offer wide customizability and ease of use for non-developers.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+domain: "nguyenanhhao221.github.io/homebrew-benerator/"
+url: "https://nguyenanhhao221.github.io/homebrew-benerator/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: rapiddweller
 github_username: rapiddweller
 
