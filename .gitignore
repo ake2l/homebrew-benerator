@@ -1,0 +1,23 @@
+# Ignore bundler config
+/.bundle
+
+# Ignore the default SQLite database.
+/db/*.sqlite3
+/db/*.sqlite3-journal
+/db/*.sqlite3-shm
+/db/*.sqlite3-wal
+
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore the vendor directory.
+/vendor/
+
+# Ignore the Gemfile.lock file
+Gemfile.lock
+
+# Ignore any other files that should not be committed
+.DS_Store
